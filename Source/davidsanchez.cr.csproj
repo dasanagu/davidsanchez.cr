@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.1.0" />
-    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.0.0" />
-    <PackageReference Include="Azure.Storage.Queues" Version="12.1.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.2.0" />
+    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.0.1" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.1.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.0" />
     <PackageReference Include="Microsoft.AspNetCore.AzureKeyVault.HostingStartup" Version="2.0.4" />
     <PackageReference Include="Microsoft.Extensions.Azure" Version="1.0.0" />
@@ -22,10 +22,12 @@
     <PackageReference Include="Piranha.AttributeBuilder" Version="8.0.0" />
     <PackageReference Include="Piranha.Azure.BlobStorage" Version="8.0.1" />
     <PackageReference Include="Piranha.Data.EF" Version="8.0.0" />
+    <PackageReference Include="Piranha.Extensions.Sync" Version="8.0.0" />
     <PackageReference Include="Piranha.ImageSharp" Version="8.0.0-rc1" />
     <PackageReference Include="Piranha.Local.FileStorage" Version="8.0.0" />
     <PackageReference Include="Piranha.Manager" Version="8.0.0" />
     <PackageReference Include="Piranha.Manager.Localization" Version="8.0.1" />
+    <PackageReference Include="Piranha.Manager.Summernote" Version="8.0.0" />
     <PackageReference Include="Piranha.Manager.TinyMCE" Version="8.0.0" />
     <PackageReference Include="Piranha.WebApi" Version="8.0.0" />
   </ItemGroup>

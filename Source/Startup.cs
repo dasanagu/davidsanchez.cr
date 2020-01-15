@@ -42,6 +42,7 @@ namespace davidsanchez.cr
                 options.UseApi();    
                 options.UseTinyMCE();
                 options.UseMemoryCache();
+                options.UseSummernote();
                 options.UseEF(db =>
                     db.UseSqlServer(Configuration["DefaultConnection"]));
                 options.UseIdentityWithSeed<IdentitySQLServerDb>(db =>
@@ -84,6 +85,7 @@ namespace davidsanchez.cr
                 options.UseManager();
                 options.UseTinyMCE();
                 options.UseIdentity();
+                options.UseSummernote();
             });
         }
     }
