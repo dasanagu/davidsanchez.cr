@@ -10,6 +10,8 @@ using Piranha.AttributeBuilder;
 using Piranha.Manager.Editor;
 using Microsoft.Extensions.Azure;
 using Microsoft.Azure.Storage.Auth;
+using System;
+using Piranha.Data.EF.SQLServer;
 
 namespace davidsanchez.cr
 {
@@ -43,7 +45,7 @@ namespace davidsanchez.cr
                 options.UseTinyMCE();
                 options.UseMemoryCache();
                 options.UseSummernote();
-                options.UseEF(db =>
+                options.UseEF<SQLServerDb>(db =>
                     db.UseSqlServer(Configuration["DefaultConnection"]));
                 options.UseIdentityWithSeed<IdentitySQLServerDb>(db =>
                     db.UseSqlServer(Configuration["DefaultConnection"]));
